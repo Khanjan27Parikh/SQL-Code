@@ -1,13 +1,13 @@
 --Case Statement
 
---SELECT FirstName, LastName, Age,
---CASE 
---	WHEN Age > 30 THEN 'Old'
---	ELSE 'Young'
---END
---FROM SQLTutorial.dbo.EmployeeDemographics
---WHERE Age is NOT NULL
---ORDER BY Age
+SELECT FirstName, LastName, Age,
+CASE 
+	WHEN Age > 30 THEN 'Old'
+	ELSE 'Young'
+END
+FROM SQLTutorial.dbo.EmployeeDemographics
+WHERE Age is NOT NULL
+ORDER BY Age
 
 --Case 1: Need to give raise to department but Salesman getting the most raise % compared to others.
 --Write the SQL query to display thier after raise salary.
